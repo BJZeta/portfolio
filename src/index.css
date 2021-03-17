@@ -1,0 +1,5 @@
+.homescreen {
+  padding: 20em 0;
+  background: url('./img/space-background.jpg') top left no-repeat;
+  background-size: cover;
+}
