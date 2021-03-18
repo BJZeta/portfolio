@@ -1,5 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+* {
+  font-family: 'Rubik', sans-serif;
+}
+
 .homescreen {
   padding: 20em 0;
-  background: url('./img/space-background.jpg') top left no-repeat;
+  background: url("./img/space-background.jpg") top left no-repeat;
   background-size: cover;
+}
+
+.nav-link {
+  font-size: 20px;
+}
+
+.aboutscreen {
+  background-color: slategrey;
+  padding: 10em 2em;
+}
+
+.aboutscreen p {
+  font-size: 18px;
+}
+
+.profile-pic {
+  max-width: 25em;
+  border-radius: 100%;
+}
+
+.resume-btn {
+  font-size: 24px;
+  background-color: black;
+  border: 0;
 }
