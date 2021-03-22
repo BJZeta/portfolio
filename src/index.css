@@ -5,7 +5,7 @@
 }
 
 .homescreen {
-  padding: 20em 0;
+  padding: 24em 0;
   background: url("./img/space-background.jpg") top left no-repeat;
   background-size: cover;
 }
@@ -15,7 +15,7 @@
 }
 
 .aboutscreen {
-  background-color: slategrey;
+  background-color: #19334d;
   padding: 10em 2em;
 }
 
@@ -23,13 +23,20 @@
   font-size: 18px;
 }
 
-.profile-pic {
-  max-width: 25em;
+.profile-pic img {
+  max-width: 20em;
   border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .resume-btn {
   font-size: 24px;
   background-color: black;
   border: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 10px;
 }
