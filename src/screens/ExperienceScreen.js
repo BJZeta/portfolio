@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Container, Col, Row } from "react-bootstrap";
 import html_css_badge from "../img/html_css_badge.png";
 import js_badge from "../img/js_badge.png";
 import sql_nosql_badge from "../img/sql_nosql_badge.png";
@@ -8,7 +8,7 @@ import react_badge from "../img/react_badge.png";
 
 const ExperienceScreen = () => {
   return (
-    <div className="experience-screen text-center">
+    <Container fluid className="experience-screen text-center">
       <Row className="text-center justify-content-center py-4 ">
         <Col md={10}>
           <h2 className="text-secondary">Education</h2>
@@ -57,7 +57,7 @@ const ExperienceScreen = () => {
           </div>
         </Col>
       </Row>
-    </div>
+    </Container>
   );
 };
 

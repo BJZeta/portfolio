@@ -4,6 +4,10 @@
   font-family: 'Rubik', sans-serif;
 }
 
+.container-fluid {
+  overflow: hidden;
+}
+
 /* HOME SCREEN */
 
 .homescreen {

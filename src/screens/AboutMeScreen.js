@@ -1,10 +1,10 @@
 import React from "react";
-import { Button, Col, Row } from "react-bootstrap";
+import { Container, Button, Col, Row } from "react-bootstrap";
 import profile from "../img/profile.jpg";
 
 const AboutMeScreen = () => {
   return (
-    <div className="aboutscreen">
+    <Container fluid className="aboutscreen">
       <Row lg={3} md={1} className="justify-content-center">
         <Col className="profile-pic">
           <img alt="Brandon Unzueta" src={profile} />
@@ -31,7 +31,7 @@ const AboutMeScreen = () => {
           </Button>
         </Col>
       </Row>
-    </div>
+    </Container>
   );
 };
 
