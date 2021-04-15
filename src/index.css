@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 
 * {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 .container-fluid {
@@ -58,9 +58,30 @@
 
 .badges img {
   max-width: 300px;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 .badges img:hover {
   transform: scale(1.25);
   cursor: pointer;
 }
+
+/* PROJECT SCREEN */
+.img-container {
+ position: relative;
+}
+
+.img-container img {
+  width: 80%;
+  height: auto;
+}
+
+.buttons {
+  position: absolute;
+  top: 50%;
+  left: 25%; 
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
