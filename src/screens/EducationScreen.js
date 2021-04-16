@@ -6,9 +6,9 @@ import sql_nosql_badge from "../img/sql_nosql_badge.png";
 import node_express from "../img/node_express.png";
 import react_badge from "../img/react_badge.png";
 
-const ExperienceScreen = () => {
+const EducationScreen = () => {
   return (
-    <Container fluid className="experience-screen text-center">
+    <Container fluid className="experience-screen text-center" id="education">
       <Row className="text-center justify-content-center py-4 ">
         <Col md={10}>
           <h2 className="text-secondary">Education</h2>
@@ -61,4 +61,4 @@ const ExperienceScreen = () => {
   );
 };
 
-export default ExperienceScreen;
+export default EducationScreen;

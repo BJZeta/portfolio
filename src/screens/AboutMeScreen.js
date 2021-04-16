@@ -4,7 +4,7 @@ import profile from "../img/profile.jpg";
 
 const AboutMeScreen = () => {
   return (
-    <Container fluid className="aboutscreen">
+    <Container fluid className="aboutscreen" id="aboutme">
       <Row lg={3} md={1} className="justify-content-center mt-3">
         <Col className="profile-pic">
           <img alt="Brandon Unzueta" src={profile} />
